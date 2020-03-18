@@ -63,7 +63,7 @@ echo -ne "\n(i) Please enter a choice[1-5]: "
 		git clone https://github.com/fiqri19102002/AnyKernel3 -b whyred-aosp --depth=1 AnyKernel3
 	
 		echo -e "\n(i) Cloning clang if folder not exist..."
-		git clone https://github.com/kdrag0n/proton-clang -b master --depth=1 clang-11.0
+		git clone https://github.com/STRIX-Project/STRIX-clang -b clang-11.0.0 --depth=1 clang-11.0
 		
 		echo -e "\n(i) Cloning toolchain if folder not exist..."
 		git clone https://github.com/najahiiii/aarch64-linux-gnu.git -b linaro8-20190402 --depth=1 toolchain
